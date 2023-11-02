@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.MuiDataGrid-row:nth-child(even) {
+  background-color: #BEE1EE !important;
+}
+
+.MuiDataGrid-row:nth-child(odd) {
+  background-color: #FFF9D2 !important;
+}
+
+.css-rtrcn9-MuiTablePagination-root .MuiTablePagination-selectLabel,
+.css-levciy-MuiTablePagination-displayedRows {
+  margin-top: 15px !important;
+}
+
+
+.container {
+  padding: 30px;
+}
+
+.row {
+  margin: 20px;
+}
