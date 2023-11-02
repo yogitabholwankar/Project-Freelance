@@ -189,7 +189,6 @@ const Users = () => {
     };
     return (
         <Container>
-            {JSON.stringify(selectedRows)}
             <Row>
                 <Col className="pr-2 pt-2 pl-0">
                     <Autocomplete
@@ -273,7 +272,6 @@ const Users = () => {
 
                 }
             </Row>
-            {JSON.stringify(userList)}
         </Container>
     );
 }
